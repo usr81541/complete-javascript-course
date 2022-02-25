@@ -15,14 +15,10 @@ const john = new Person(85, 1.76);
 // );
 if (mark.bmi > john.bmi) {
   console.log(
-    `Mark's BMI (${mark.bmi.toFixed(
-      1
-    )}) is higher than John's (${john.bmi.toFixed(1)})!`
+    `Mark's BMI (${mark.bmi.toFixed(1)}) is higher than John's (${john.bmi.toFixed(1)})!`
   );
 } else {
   console.log(
-    `John's BMI (${john.bmi.toFixed(
-      1
-    )}) is higher than Mark's (${mark.bmi.toFixed(1)})!`
+    `John's BMI (${john.bmi.toFixed(1)}) is higher than Mark's (${mark.bmi.toFixed(1)})!`
   );
 }
